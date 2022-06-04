@@ -3,15 +3,34 @@
 	<head>
 		<title>Bordas</title>
 		<meta charset="utf-8">
+		
+		<!-- 
+			Bordas:
+			- Solidas "solid" quadrado normal
+			- Pontos "dotted" bolinhas
+			- Traços "dashed" tracinhos
+			- Borda dupla "double" 
+			- Borda Grossa "groove" efeito 3d
+			- Borda Grossa "ridge" efeito 3d invertido
+			- Borda superior escura "inset"
+			- Borda inferior escura "outset"
+			- Tira borda definiada "none"
+			- Esconde borda "hidden"
+		-->
 
 		<style type="text/css">
 
 			#conteudo {
-				border: 1px solid rgb(255, 0, 0);
+				/*border: 50px outset rgb(255, 0, 0);*/
+				/*Definição da cor de cada lado a borda é no sentido horario*/
+				border-color: red green greenyellow blue;
+				/* Dois valores 1º superior e inferior 2º direita esquerda*/
+				border-width: 15px 30px 15px 30px;
+				/* Dois valores 1º superior e inferior 2º direita esquerda*/
+				border-style: solid dotted ridge inset;
 			}
 			
 		</style>
-
 
 	</head>
 	<body id="principal">
@@ -22,6 +41,12 @@
 		<a href="classes_id.html">Classes_id/</a>
 		<a href="div_span.html">Div_Span/</a>
 		<a href="Bordas.html">Bordas/</a>
+		<a href="fontes_cores.html">Fontes_Cores/</a>
+		<a href="tamanhos-texto.html">Tamanhos-texto/</a>
+		<a href="estilos_texto.html">Estilos_texto/</a>
+
+		<h1>Estilo CSS (cascanding style sheet)</h1>
+		<h3>Bordas</h3>
 
 		<div id="conteudo">
 			Bordas<br>
