@@ -1,0 +1,82 @@
+#navbar {
+    background: rgba(68, 255, 124, 0.644);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+#container {
+    background: #FFF;
+    width: 800px;
+    /*
+    Esta definido automaticamente as laterais
+    */
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#p1 {
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+}
+
+#p2 {
+    border: 1px solid red; 
+    position: relative;
+    left: 180px;
+}
+
+#p3 {
+    border: 1px solid red;
+    position: relative;
+    bottom: 30px;
+}
+
+#p4 {
+    border: 1px solid red;
+    position: relative;
+    right: 80px;
+}
+body {
+    background: #007fc7;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(134, 133, 31); 
+}
+
+
+p {
+    /*
+    Posição "static" é padrão para os documentos html
+    */
+    width: 300px;
+}
+
+.relative {
+    border: 1px solid red;
+    /*
+    Para usar:
+    position: relative
+    É preciso utilizar propriedades de deslocamento para movimentar o paragráfo, que é o caso no momendo, sendo as propriedades:
+    top, right, bottom e left
+
+    Exemplo:
+    position: relative;
+    top: 20px;
+
+    position: relative;
+    right: 80px;
+
+    Obs: para utilixar as propriedades é preciso que o "position: relative" seja utilizado
+    Obs: A movimentação é baseada na posição que ele teria no documento
+    Obs: numeros negativos tbm podem ser usados, sendo assim o deslocamento é ivertido
+    Obs: 0px considera-se como o lugar riginal
+    */
+    position: relative;
+    right: 80px;
+    top: 20px;
+}
