@@ -1,0 +1,39 @@
+/*
+Elementos Flutuantes
+*/
+
+#principal{
+    border: 5px solid red;
+    background: greenyellow;
+}
+.conteudo {
+    background: blueviolet;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}
+
+/*
+Float é o que ativa os elemetos Flutuanes comom é mostrado e como mstra na pasta "pratica"
+
+.conteudo1 {
+    background: red;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}*/
+.conteudo-zero {
+    background: red;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
