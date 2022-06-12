@@ -5,8 +5,53 @@
     display: inline-block;
 }
 
+#container {
+    background: #FFF;
+    width: 800px;
+    /*
+    Esta definido automaticamente as laterais
+    */
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#p1 {
+    border: 1px solid red;
+    
+}
+
+#p2 {
+    border: 1px solid red; 
+    
+}
+
+#p3 {
+    border: 1px solid red;
+    
+}
+
+#p4 {
+    border: 1px solid red;
+    
+}
+body {
+    background: #007fc7;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(134, 133, 31); 
+}
+
+
+p {
+    /*
+    Posição "static" é padrão para os documentos html
+    */
+    width: 300px;
+}
+
+.absolute {
+    border: 1px solid red;
 }
