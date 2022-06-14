@@ -1,3 +1,3 @@
 # Antações gerais
 
- - Anotações gerais do curso da udemy.:smile:
+ - Anotações gerais dos cursos da udemy.:smile:
