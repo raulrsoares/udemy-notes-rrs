@@ -12,7 +12,7 @@ provider "aws" {
   access_key = "my-access-key"
   secret_key = "my-secret-key"
 
-  region = "eu-east-2"
+  region = "us-east-2"
 
   default_tags {
     tags = {
