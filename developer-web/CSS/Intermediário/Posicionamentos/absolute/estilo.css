@@ -13,26 +13,35 @@
     */
     margin: 10px auto;
     padding: 10px;
+    position: relative;
 }
 
 #p1 {
     border: 1px solid red;
-    
+    position: absolute;
+    top: 80px;
+    background-color: #FFF;
 }
 
 #p2 {
     border: 1px solid red; 
-    
+    position: absolute;
+    right: 80px;
+    background-color: #FFF;
 }
 
 #p3 {
     border: 1px solid red;
-    
+    position: absolute;
+    bottom: 80px;
+    background: #FFF;
 }
 
 #p4 {
     border: 1px solid red;
-    
+    position: absolute;
+    left: 80px;
+    background: #FFF;
 }
 body {
     background: #007fc7;
@@ -54,4 +63,18 @@ p {
 
 .absolute {
     border: 1px solid red;
+    /*Para usar:
+    position: absolute;
+    É preciso utilizar propriedades de deslocamento para movimentar o paragráfo, que é o caso no momendo, sendo as propriedades:
+    top, right, bottom e left
+
+    Ele vai ser posicionado de acordo com o container que tem uma possição se não ele vai se basear no corpo da página
+
+    Exemplo:
+    position: absolute;
+    top: 20px;*/
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    background-color: #FFF;
 }
